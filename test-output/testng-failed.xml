@@ -3,12 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.assured.RestAssured.Get_Rest_Assured">
+      <class name="com.rest.assured.RestAssured.Get_01">
         <methods>
-          <include name="get_01"/>
+          <include name="methodget"/>
+          <include name="endreport"/>
           <include name="commonURI"/>
+          <include name="names"/>
+          <include name="startreport"/>
+          <include name="methodend"/>
+          <include name="get_01"/>
         </methods>
-      </class> <!-- com.rest.assured.RestAssured.Get_Rest_Assured -->
+      </class> <!-- com.rest.assured.RestAssured.Get_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

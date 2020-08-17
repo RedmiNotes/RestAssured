@@ -2,20 +2,47 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5512" started-at="2020-08-06T10:52:37 IST" finished-at="2020-08-06T10:52:43 IST">
+  <suite name="Default suite" duration-ms="9682" started-at="2020-08-16T13:58:49 IST" finished-at="2020-08-16T13:58:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5512" started-at="2020-08-06T10:52:37 IST" finished-at="2020-08-06T10:52:43 IST">
-      <class name="com.rest.assured.RestAssured.Get_Rest_Assured">
-        <test-method status="PASS" signature="commonURI()[pri:0, instance:com.rest.assured.RestAssured.Get_Rest_Assured@7f13d6e]" name="commonURI" is-config="true" duration-ms="747" started-at="2020-08-06T10:52:37 IST" finished-at="2020-08-06T10:52:38 IST">
+    <test name="Default test" duration-ms="9682" started-at="2020-08-16T13:58:49 IST" finished-at="2020-08-16T13:58:59 IST">
+      <class name="com.rest.assured.RestAssured.Get_01">
+        <test-method status="PASS" signature="commonURI()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="commonURI" is-config="true" duration-ms="1118" started-at="2020-08-16T13:58:49 IST" finished-at="2020-08-16T13:58:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commonURI -->
-        <test-method status="PASS" signature="get_01()[pri:0, instance:com.rest.assured.RestAssured.Get_Rest_Assured@7f13d6e]" name="get_01" duration-ms="4706" started-at="2020-08-06T10:52:38 IST" finished-at="2020-08-06T10:52:43 IST">
+        <test-method status="PASS" signature="names()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="names" is-config="true" duration-ms="0" started-at="2020-08-16T13:58:50 IST" depends-on-methods="com.rest.assured.RestAssuredProject.RestAssuredCommon.commonURI" finished-at="2020-08-16T13:58:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- names -->
+        <test-method status="PASS" signature="startreport()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="startreport" is-config="true" duration-ms="169" started-at="2020-08-16T13:58:50 IST" finished-at="2020-08-16T13:58:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method status="PASS" signature="methodget(org.testng.ITestResult)[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="methodget" is-config="true" duration-ms="5" started-at="2020-08-16T13:58:51 IST" finished-at="2020-08-16T13:58:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Get_01.get_01()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodget -->
+        <test-method status="PASS" signature="get_01()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="get_01" duration-ms="8225" started-at="2020-08-16T13:58:51 IST" finished-at="2020-08-16T13:58:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_01 -->
-      </class> <!-- com.rest.assured.RestAssured.Get_Rest_Assured -->
+        <test-method status="PASS" signature="methodend()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="methodend" is-config="true" duration-ms="2" started-at="2020-08-16T13:58:59 IST" finished-at="2020-08-16T13:58:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodend -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.rest.assured.RestAssured.Get_01@53f65459]" name="endreport" is-config="true" duration-ms="903" started-at="2020-08-16T13:58:59 IST" finished-at="2020-08-16T13:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.rest.assured.RestAssured.Get_01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
